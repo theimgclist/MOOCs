@@ -3,3 +3,7 @@ __pycache__
 .pyc
 *.jpg
 *checkpoint.ipynb
+*.jpg
+*.DS_STORE
+*.png
+*.Rhistory
