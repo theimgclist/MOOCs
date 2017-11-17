@@ -45,7 +45,7 @@ sc_X = StandardScaler()
 # that way the model will converge better
 # eg: Decision trees dont use ED
 # but if not scaled, they run for a very long time
-# do we have to aplpy scaling for dependent variable
+# do we have to apply scaling for dependent variable
 # no, since this is a classification problem, we dont have to
 # for regression, the DV scales vastly, then we need scaling
 # we dont need to add fit to X_test because for the object sc_X we already fit it using X_train

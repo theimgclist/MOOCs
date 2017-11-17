@@ -34,3 +34,7 @@ X = onehotencoder.fit_transform(X).toarray()
 # so we dont need OneHotEncoder here
 labelencoder_y = LabelEncoder()
 y = labelencoder_y.fit_transform(y)
+
+
+#https://discuss.analyticsvidhya.com/t/label-encoding-vs-one-hot-encoding-in-machine-learning-model/7411
+# the above discussion explaines OHE well

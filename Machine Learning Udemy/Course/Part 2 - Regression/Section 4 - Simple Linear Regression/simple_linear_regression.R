@@ -24,7 +24,7 @@ regressor = lm(formula = Salary ~ YearsExperience,
 # if we need any info about variables, we can use summaru(regressor) in console to see the result
 # if we try that we see some good info
 # like the independent variable is given stars
-# 0 stars mean no signigicance or not relationship with DV
+# 0 stars mean no signigicance or no relationship with DV
 # 3 stars mean high significance relation with DV
 # for salary we got 3 stars, so linear dependency is high between IV and DV
 # another thing to see is the p value

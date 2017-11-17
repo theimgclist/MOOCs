@@ -81,7 +81,7 @@ plt.show()
 # notice here that we used X_train for plotting
 # we trained our model using X_train data
 # we used X_train data to fit a model
-# so whenever use predict, it used that already fit model to make predictions
+# so whenever use predict, it uses that already fit model to make predictions
 # even if we change X_train to X-test,there wont be a change in line i.e our model
 # the line we see is what we got because of regressor.fit()
 # like before with train data, we see that the test data too has come up with good predictions
